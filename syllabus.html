@@ -1,0 +1,288 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.3.6.2 (MacOSX)"/>
+	<meta name="author" content="Neal Davis"/>
+	<meta name="created" content="2015-06-03T15:31:54.406978000"/>
+	<meta name="changedby" content="Neal Davis"/>
+	<meta name="changed" content="2015-06-03T15:32:21.497105000"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 120% }
+		td p { margin-bottom: 0in }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<p style="margin-bottom: 0in; line-height: 100%; page-break-before: always">
+<font size="2" style="font-size: 11pt"><b>Target Audience</b></font></p>
+<p style="margin-bottom: 0.1in; line-height: 100%"><font size="2" style="font-size: 11pt">The
+“reluctant coder”:  a graduate student in conventional
+engineering (MechSE, MatSE, CEE, NPRE, etc.) with a need to write and
+manage research codes, for instance at a national laboratory or in
+academia.  This demographic rarely has the prerequisite courses
+required to take upper-level CS courses.</font></p>
+<p style="margin-bottom: 0.1in; line-height: 100%"><font size="2" style="font-size: 11pt">Prerequisites
+include:  <i>CS 420 Parallel programming</i> or equivalent exposure
+to HPC concepts (although these will be reviewed as well); <i>CS 450
+Numerical analysis</i><span style="font-style: normal"> or </span><i>TAM
+470 Computational mechanics</i><span style="font-style: normal"> or
+equivalent exposure to numerical concepts.</span></font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font size="2" style="font-size: 11pt"><b>Objective</b><b>s</b></font></p>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+<font size="2" style="font-size: 11pt">To teach students the
+components and methods of <i>modern scientific software development</i><span style="font-style: normal">
+</span><span style="font-style: normal">by exposure to lectures and
+hands-on tutorials exemplifying component principles.  </span><span style="font-style: normal">The
+workshop </span><span style="font-style: normal">days will focus on:</span></font></p>
+<ol>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt"><span style="font-style: normal">the
+	</span><i>basis and elements of modern scientific software</i><span style="font-style: normal">
+	</span><span style="font-style: normal">and the </span><i>development
+	process</i><span style="font-style: normal">;</span></font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt"><span style="font-style: normal">the
+	</span><i>integration of a modern numerical library</i><span style="font-style: normal">,
+	PETSc;</span></font></p>
+	<li/>
+<p style="margin-bottom: 0.1in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt"><span style="font-style: normal">the
+	</span><i>development of a simple multiphysics code</i><span style="font-style: normal">
+	using </span><span style="font-style: normal">the </span><span style="font-style: normal">MOOSE
+	</span><span style="font-style: normal">Framework </span><span style="font-style: normal">(built
+	on </span><span style="font-style: normal">top of </span><span style="font-style: normal">PETSc).</span></font></p>
+</ol>
+<p style="margin-bottom: 0in; line-height: 100%"><font size="2" style="font-size: 11pt"><b>Agenda</b></font></p>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<col width="32*">
+	<col width="134*">
+	<col width="90*">
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><font face="Museo Slab"><font size="1" style="font-size: 8pt">AUGUST
+			18/T</font></font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">morning</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">High-Performance
+			Computing concepts review</font></p>
+			<p><font size="2" style="font-size: 11pt">(parallelism, MPI,
+			distributed memory)</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">Ananth Grama? / CS,
+			Purdue</font></p>
+			<p><font size="2" style="font-size: 11pt">Luke Olson? / CS,
+			Illinois</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">afternoon</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">verification and
+			validation</font></p>
+			<p><font size="2" style="font-size: 11pt">scientific software
+			development methodology</font></p>
+			<p><font size="2" style="font-size: 11pt">reproducibility &amp;
+			version control; code review</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">Ananth Grama? / CS,
+			Purdue</font></p>
+			<p><font size="2" style="font-size: 11pt">John Turner / CASL, Oak
+			Ridge</font></p>
+			<p><font size="2" style="font-size: 11pt">Neal Davis / CSE,
+			Illinois</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><font face="Museo Slab"><font size="1" style="font-size: 8pt">AUGUST
+			19/W</font></font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">morning</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-style: normal; font-weight: normal; text-decoration: none">
+			<font face="Linux Libertine O"><font size="2" style="font-size: 11pt">PETSc
+			introduction &amp; exercises</font></font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">Jed Brown? / ANL ; Bill
+			Gropp / CS</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">afternoon</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-style: normal; font-weight: normal; text-decoration: none">
+			<font face="Linux Libertine O"><font size="2" style="font-size: 11pt">PETSc
+			introduction &amp; exercises</font></font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p>—</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><font face="Museo Slab"><font size="1" style="font-size: 8pt">AUGUST
+			20/R</font></font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">morning</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">MOOSE introduction &amp;
+			exercises</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">Derek Gaston / INL</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">afternoon</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">MOOSE introduction &amp;
+			exercises</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p>—</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><font face="Museo Slab"><font size="1" style="font-size: 8pt">AUGUST
+			21/F</font></font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p style="font-weight: normal"><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">morning</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">MOOSE continuation &amp;
+			exercises</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">Derek Gaston / INL</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="13%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">afternoon</font></p>
+		</td>
+		<td width="52%" style="border: none; padding: 0in">
+			<p><font size="2" style="font-size: 11pt">MOOSE continuation &amp;
+			exercises</font></p>
+		</td>
+		<td width="35%" style="border: none; padding: 0in">
+			<p>—</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-top: 0.1in; margin-bottom: 0in; line-height: 100%"><font size="2" style="font-size: 11pt"><b>Projects</b></font></p>
+<p style="margin-bottom: 0.1in; font-weight: normal; line-height: 100%">
+<font size="2" style="font-size: 11pt">Each project will have clearly
+defined goals, specifications, and benchmarks.  The projects will
+focus on the translation of model concepts into numerics and
+algorithms as well as providing exposure to the software development
+concepts discussed in the workshop.</font></p>
+<p style="margin-bottom: 0.1in; font-weight: normal; line-height: 100%">
+<font size="2" style="font-size: 11pt">Development for PETSc and
+MOOSE should take place on a regular serial platform<sup>[<a href="http://www.mcs.anl.gov/petsc/petsc-current/docs/codemanagement.html">ref</a>]</sup>,
+and we will provide either a VM or compilation support for those
+interested.  For execution, the PETSc and MOOSE libraries will be
+installed and supported on Blue Waters as well as Campus Cluster.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><font size="2" style="font-size: 11pt"><b>Contributors</b></font></p>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+<font size="2" style="font-size: 11pt">We are involving researchers
+and developers from the following organizations:</font></p>
+<ul>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Argonne National Laboratory
+	(PETSc)</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Blue Waters, Illinois</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Computer Science, Illinois</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Computer Science, Purdue</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Consortium for Advanced
+	Light-water reactor Simulation (CASL), Oak Ridge National Laboratory</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">Idaho National Laboratory
+	(MOOSE)</font></p>
+	<li/>
+<p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+	<font size="2" style="font-size: 11pt">National Center for
+	Supercomputing Applications</font></p>
+</ul>
+</body>
+</html>

@@ -51,7 +51,7 @@ a {
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 93, 164, 0.8);
   border-color: rgba(255, 255, 255, 0.3); }
 
 @media screen and (min-width: 64em) {
@@ -81,23 +81,23 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 2rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 2rem 6rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 2rem 6rem; } }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0rem; }
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 2.4rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
@@ -108,7 +108,7 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   font-weight: normal;
   opacity: 0.7; }
 
@@ -129,10 +129,10 @@ a {
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   font-weight: normal;
-  color: #159957; }
+  color: #005DA4; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {

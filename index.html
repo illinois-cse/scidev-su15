@@ -1,56 +1,223 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Scientific Software Development by uiuc-cse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"
+      type="text/css">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
     <section class="page-header">
-      <table><tr><td style="width:20%;">
-      <img src="./img/header.png" width="100%;" align="left;"/>
-      </td><td style="width:80%;">
-      <h1 class="project-name">Scientific Software Development</h1>
-      <h2 class="project-tagline"><em>a</em> SHORT COURSE <em>for</em> ENGINEERS <em>and</em> RELUCTANT CODERS</h2>
-    </td></tr></table>
-      <a href="https://github.com/uiuc-cse/scidev-su15" class="btn">View on GitHub</a>
-      <a href="https://github.com/uiuc-cse/scidev-su15/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/uiuc-cse/scidev-su15/tarball/master" class="btn">Download .tar.gz</a>
+      <table style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="width:20%;"> <img src="./img/header.png" align="left;" width="100%;">
+            </td>
+            <td style="width:80%;">
+              <h1 class="project-name">Scientific Software Development</h1>
+              <h2 class="project-tagline"><em>a</em> SHORT COURSE <em>for</em>
+                ENGINEERS <em>and</em> RELUCTANT CODERS<br/>August 18–21</h2>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--
+      <a href="https://github.com/uiuc-cse/scidev-su15" class="btn">View on
+        GitHub</a> <a href="https://github.com/uiuc-cse/scidev-su15/zipball/master"
+        class="btn">Download
+        .zip</a> <a href="https://github.com/uiuc-cse/scidev-su15/tarball/master"
+        class="btn">Download
+        .tar.gz</a>
+        -->
     </section>
-
     <section class="main-content">
-      <ul>
-          <li>PRINCIPLES <em>of</em> CODE CONSTRUCTION</li>
-          <li>PETSc SCIENTIFIC LIBRARY <em>for</em> NUMERICS</li>
-          <li>MOOSE SCIENTIFIC LIBRARY <em>for</em> PHYSICS</li>
+      <h3>Target Audience</h3>
+<p>The “reluctant coder”:  a graduate student in conventional engineering (MechSE, MatSE, CEE, NPRE, etc.) with a need to write and manage research codes, for instance at a national laboratory or in academia.  This demographic rarely has the prerequisite courses required to take upper-level CS courses.</p>
+<p>Prerequisites include:  <i>CS 420 Parallel programming</i> or equivalent exposure to HPC concepts (although these will be reviewed as well); <i>CS 450 Numerical analysis</i> or <i>TAM 470 Computational mechanics</i> or equivalent exposure to numerical concepts.  Knowledge of C++ is a necessity, but you can run through a tutorial beforehand to get up to speed on the language.</p>
+
+
+<h3>Objectives</h3>
+<p>
+To teach students the components and methods of <i>modern scientific software development</i> by exposure to lectures and hands-on tutorials exemplifying component principles.  The workshop days will focus on:</p>
+<ol>
+	<li>
+	the <i>basis and elements of modern scientific software</i> and the <i>development process</i>;
+	</li>
+    <li>
+	the <i>integration of a modern numerical library</i>, <a href="http://www.mcs.anl.gov/petsc/">PETSc</a>;
+	</li>
+	<li>
+	the <i>development of a simple multiphysics code</i> using the <a href="http://mooseframework.com/">MOOSE</a> Framework (built on top of <a href="http://www.mcs.anl.gov/petsc/">PETSc</a>).
+	</li>
+</ol>
+
+<!--
+<h3>Registration</h3>
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid=10121964067&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="206px"
+  scrolling="auto">
+</iframe>
+-->
+
+<h3>Tentative Agenda</h3>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<col width="32*">
+	<col width="134*">
+	<tr valign="top">
+		<td>
+			<p><font face="Museo Slab" style="font-size: 8pt">AUGUST 18/T</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>morning</p>
+		</td>
+		<td>
+			<p>High-Performance
+			Computing concepts review</p>
+			<p>(parallelism, MPI,
+			distributed memory)</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>afternoon</p>
+		</td>
+		<td>
+			<p>verification and
+			validation</p>
+			<p>scientific software
+			development methodology</p>
+			<p>reproducibility &amp;
+			version control</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p><font face="Museo Slab" style="font-size: 8pt">AUGUST 19/W</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>morning</p>
+		</td>
+		<td>
+			<p>
+			<a href="http://www.mcs.anl.gov/petsc/">PETSc</a> introduction &amp; exercises</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>afternoon</p>
+		</td>
+		<td>
+			<p>
+			<a href="http://www.mcs.anl.gov/petsc/">PETSc</a> introduction &amp; exercises</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p><font face="Museo Slab" style="font-size: 8pt">AUGUST 20/R</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>morning</p>
+		</td>
+		<td>
+			<p><a href="http://mooseframework.com/">MOOSE</a> introduction &amp;
+			exercises</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>afternoon</p>
+		</td>
+		<td>
+			<p><a href="http://mooseframework.com/">MOOSE</a> introduction &amp; exercises</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p><font face="Museo Slab" style="font-size: 8pt">AUGUST 21/F</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>morning</p>
+		</td>
+		<td>
+			<p><a href="http://mooseframework.com/">MOOSE</a> continuation &amp;
+			exercises</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>afternoon</p>
+		</td>
+		<td>
+			<p><a href="http://mooseframework.com/">MOOSE</a> continuation &amp;
+			exercises</p>
+		</td>
+	</tr>
+</table>
+
+<h3>Projects</h3>
+<p>Each project will have clearly defined goals, specifications, and benchmarks.  The projects will focus on the translation of model concepts into numerics and algorithms as well as providing exposure to the software development concepts discussed in the workshop.</p>
+<p>Development for <a href="http://www.mcs.anl.gov/petsc/">PETSc</a> and <a href="http://mooseframework.com/">MOOSE</a> will take place on a regular serial platform<sup>[<a href="http://www.mcs.anl.gov/<a href="http://www.mcs.anl.gov/petsc/">PETSc</a>/<a href="http://www.mcs.anl.gov/petsc/">PETSc</a>-current/docs/codemanagement.html">ref</a>]</sup>, and we will provide either a VM or compilation support as necessary.  For execution, the <a href="http://www.mcs.anl.gov/petsc/">PETSc</a> and <a href="http://mooseframework.com/">MOOSE</a> libraries will be available on <a href="https://bluewaters.ncsa.illinois.edu/">Blue Waters</a> as well as Campus Cluster.</p>
+
+
+<h3>Contributors</h3>
+<p>
+We are involving researchers and developers from the following organizations:
+<ul>
+	<li>
+	Argonne National Laboratory (<a href="http://www.mcs.anl.gov/petsc/">PETSc</a> development team)
+	</li>
+	<li>
+	<a href="https://bluewaters.ncsa.illinois.edu/">Blue Waters</a>, Illinois
+	</li>
+    <li>
+	Computer Science, Illinois
+	</li>
+    <li>
+	Computer Science, Purdue
+	</li>
+    <li>
+	Consortium for Advanced Light-water reactor Simulation (CASL), Oak Ridge National Laboratory
+	</li>
+    <li>
+	Idaho National Laboratory (<a href="http://mooseframework.com/">MOOSE</a> development team)
+	</li>
+    <li>
+	National Center for Supercomputing Applications
+	</li>
 </ul>
-
-<p><em>limited engagement</em> · 18–20 August</p>
-<p>REGISTER <em>at</em> <a href="http://cse.illinois.edu/training">CSE.ILLINOIS.EDU/TRAINING</a></p>
-
+</p>
+      <p>REGISTER <em>at</em> <a href="http://cse.illinois.edu/training">CSE.ILLINOIS.EDU/TRAINING</a></p>
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/uiuc-cse/scidev-su15">Scientific Software Development</a> is maintained by <a href="https://github.com/uiuc-cse">uiuc-cse</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+        <span class="site-footer-owner">
+            <a href="https://github.com/uiuc-cse/scidev-su15">Scientific Software Development</a> is maintained by <a href="https://github.com/uiuc-cse">uiuc-cse</a> on <a href="https://github.com/">GitHub</a>.
+        </span>
+        <img src="./img/footer.png" width="100%"/>
       </footer>
-
     </section>
-
-            <script type="text/javascript">
+    <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
-          <script type="text/javascript">
+    <script type="text/javascript">
             try {
               var pageTracker = _gat._getTracker("UA-53962544-14");
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
   </body>
 </html>
-
