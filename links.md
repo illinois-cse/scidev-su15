@@ -17,7 +17,11 @@ The following are links to the instructors’ presentation materials at SciDev 2
     -   [Some Agile Best Practices (pptx)](./refs/SomeAgileBestPracticies_20150818.pptx)
     -   [Some Agile Best Practices (pdf)](./refs/SomeAgileBestPracticies_20150818.pdf)
 -   Barry Smith:
-    -   [forthcoming]()
-    -   [forthcoming]()
+    -   [Introductory slides](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/UIUC-19-August-2015.pdf)
+    -   [PETSc4Py](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/PETSc4Py.pdf)
+    -   [TAO](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/TAO.pdf)
+    -   [SAWs](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/SAWs.pdf)
+    -   [SLEPc](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/SLEPc.pdf)
+    -   [TSAdjoint](http:/www.mcs.anl.gov/petsc/NCSA-UIUC/TSAdjoint.pdf)
 -   Derek Gaston
     -   [forthcoming]()
